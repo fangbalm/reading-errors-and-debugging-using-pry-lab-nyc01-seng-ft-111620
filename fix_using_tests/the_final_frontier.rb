@@ -13,4 +13,15 @@ def engage
   puts state_log(date)
 end
 
-engage
+
+# def generate_star_date
+#   (rand(100000) + 400000) / 10
+# end
+# def state_log(star_date)
+#  greeting = "Captain's Log, star date #{star_date}."
+#  greeting
+# end
+# def engage
+#   star_date = generate_star_date.to_i
+#   state_log(star_date)
+# end
